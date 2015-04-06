@@ -165,10 +165,10 @@ Actor|World
 ---|---
 Choose sheet musica to perform|
 Gather necesasry resources|
-||provides access to resources
+|provides access to resources
 Performs piec sequentially |
-||convey and interprets performance
-||provides feedback
+|convey and interprets performance
+|provides feedback
 completes performance|
 
 Use cases are useful because they help identify useful levels of design work. They allow the designers to see the actual low level processes that are involved for a certain problem, which makes the problem easier to handle, since certain minor steps and details the user makes are exposed. The designers' job should take into consideration of these small problems in order to arrive at a final solution that works. Another way to say this is that use cases breaks a complicated task into smaller bits, where these bits are useful units. Each bit completes a small task, which then builds up to the final bigger task. Like writing code on a computer, it is easier to write the basic smaller parts and make them work first, and then put them together to finish the larger more complicated code, instead to tackling the entire code from the very beginning.
