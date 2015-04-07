@@ -134,17 +134,17 @@ Scenarios create a social context in which the personas exist, and also create a
 #### Use Case
 In short, a use case describes the interaction between an individual and the rest of the world. Each use case describes an event that may occur for a short period of time in real life, but may consist of intricate details and interactions between the actor and the world.It is represented as a series of simple steps for the character to achieve his or her goal, in the form of a cause-and effect scheme. Use cases are normally written in the form of a chart with two columns: first column labelled actor, second column labelled world, and the actions performed by each side written in order in the respective columns. The following is an example of a use case for performing a song on a guitar in front of an audience.
 
-Actor|World
----|----
-choose music to play|
-pick up guitar|
-|| display sheet music
-perform each note on sheet music using guitar|
-||convey note to audience using sound
-||audience provides feedpack to performer
-assess performance and adjust as needed based on audience feedback.|
-complete song with required adjustments|
-||audience applause
+|Actor|World|
+|---|----|
+|choose music to play||
+|pick up guitar||
+|| display sheet musici|
+|perform each note on sheet music using guitar||
+||convey note to audience using sound|
+||audience provides feedpack to performer|
+|assess performance and adjust as needed based on audience feedback.||
+|complete song with required adjustments||
+||audience applause|
 
 The interaction between actor and the world is an act that can be seen in everyday life, and we take them as granted and don't think too much about the small detail that needs to happen in order for an act like performing a piece of music to exist. It is similar to the fact that when speaking our mother tongue, we don't think too much about grammar and how to phrase words; they just come out since we are so used to saying them. The actions between an actor and the world, notably, the primary stakeholder (user) and the world in this case, should be thought about in detail, and hence use cases are created to understand how these tiny interactions occur.
 
@@ -161,15 +161,15 @@ Other books in a similar vein include "Designing Pleasurable Products" by Patric
 
 
 
-Actor|World
----|---
-Choose sheet musica to perform|
-Gather necesasry resources|
-|provides access to resources
-Performs piec sequentially |
-|convey and interprets performance
-|provides feedback
-completes performance|
+|Actor|World|
+|---|---|
+|Choose sheet musica to perform||
+|Gather necesasry resources||
+||provides access to resources|
+|Performs piec sequentially ||
+||convey and interprets performance|
+||provides feedback|
+|completes performance||
 
 Use cases are useful because they help identify useful levels of design work. They allow the designers to see the actual low level processes that are involved for a certain problem, which makes the problem easier to handle, since certain minor steps and details the user makes are exposed. The designers' job should take into consideration of these small problems in order to arrive at a final solution that works. Another way to say this is that use cases breaks a complicated task into smaller bits, where these bits are useful units. Each bit completes a small task, which then builds up to the final bigger task. Like writing code on a computer, it is easier to write the basic smaller parts and make them work first, and then put them together to finish the larger more complicated code, instead to tackling the entire code from the very beginning.
 
@@ -374,14 +374,35 @@ In personal computers, all these elements are modeled through a desktop metaphor
 ### GUI Types
 
 #### OOUI
-OOUI = Object Oriented User Interface (think Photoshop)
+**OOUI = Object Oriented User Interface (think Photoshop)**
+n computing an object-oriented user interface (OOUI) is a type of user interface based on an object-oriented programming metaphor. In an OOUI, the user interacts explicitly with objects that represent entities in the domain that the application is concerned with. Many vector drawing applications, for example, have an OOUI - the objects being lines, circles and canvases. The user may explicitly select an object, alter its properties (such as size or colour), or invoke other actions upon it (such as to move, copy, or re-align it). If a business application has any OOUI, the user may be selecting and/or invoking actions on objects representing entities in the business domain such as customers, products or orders.
+
+**Jakob Nielsen** defines the OOUI in contrast to function-oriented interfaces: "Object-oriented interfaces are sometimes described as turning the application inside-out as compared to function-oriented interfaces. The main focus of the interaction changes to become the users' data and other information objects that are typically represented graphically on the screen as icons or in windows."
+
+**Dave Collins** defines an OOUI as demonstrating three characteristics:
+
+* Users perceive and act on objects
+* Users can classify objects based on how they behave
+* In the context of what users are trying to do, all the user interface objects fit together into a coherent overall representation.
+
+**Jef Raskin** suggests that the most important characteristic of an OOUI is that it adopts a 'noun-verb', rather than a 'verb-noun' style of interaction, and that this has several advantages in terms of usability
 
 #### AOI
 AOI/AOUI = Application Oriented Interface/Application Oriented User Interface (think Microsoft Excel)
 
+##### Difference Between
+|AOUI|OOUI|
+|----|----|
+|Icons represent applications or minimized windows.|Icons represent business objects|
+|Work environment consists of applications with primary and secondary windows.| Work environment consists of a collection of related objects and object views.|
+|Users must start an application and follow its structure before they can work on their tasks.| Users interact with software representations of business objects to perform their tasks.|
+|Each application has a complex menu bar that's shared among application components and represents all possible actions.|Each object view has its own menu bar or context-sensitive menu containing actions that only apply to the selected object.|
+|Application title bar shows the filename and the application name.|Object title bar shows the object instance name and the view name.|
+|Any changes to window properties need to be saved explicitly.|Any changes to object properties are saved automatically. All changes are immediately reflected in all object views|
 
 
-# 3. Characteristics of WIMP(Window, Icon, Menu, Pointer) Interfaces 
+
+# 3. Characteristics of WIMP (Window, Icon, Menu, Pointer) Interfaces 
 ## Structural elements
 User interfaces use visual conventions to represent the generic information shown. Some conventions are used to build the structure of the static elements on which the user can interact, and define the appearance of the interface.
 
