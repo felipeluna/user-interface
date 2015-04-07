@@ -297,70 +297,19 @@ This defined that a pulldown menu system should be at the top of the screen, sta
 
 
 ### UI Types
+ **Graphical user interfaces (GUI)** accept input via devices such as a computer keyboard and mouse and provide articulated graphical output on the computer monitor. There are at least two different principles widely used in GUI design: Object-oriented user interfaces (OOUIs) and application oriented interfaces.
 
-* **Direct manipulation** interface is the name of a general class of user interfaces that allow users to manipulate objects presented to them, using actions that correspond at least loosely to the physical world.
-* **Graphical user interfaces (GUI)** accept input via devices such as a computer keyboard and mouse and provide articulated graphical output on the computer monitor. There are at least two different principles widely used in GUI design: Object-oriented user interfaces (OOUIs) and application oriented interfaces.
-* **Web-based user interfaces or web user interfaces (WUI)** that accept input and provide output by generating web pages which are transmitted via the Internet and viewed by the user using a web browser program. Newer implementations utilize Java, JavaScript, AJAX, Apache Flex, .NET Framework, or similar technologies to provide real-time control in a separate program, eliminating the need to refresh a traditional HTML based web browser. Administrative web interfaces for web-servers, servers and networked computers are often called control panels.
-* **Touchscreens** are displays that accept input by touch of fingers or a stylus. Used in a growing amount of mobile devices and many types of point of sale, industrial processes and machines, self-service machines etc
-* **Command line interfaces**,where the user provides the input by typing a command string with the computer keyboard and the system provides output by printing text on the computer monitor. Used by programmers and system administrators, in engineering and scientific environments, and by technically advanced personal computer users.
-* **Touch user interface** are graphical user interfaces using a touchpad or touchscreen display as a combined input and output device. They supplement or replace other forms of output with haptic feedback methods. Used in computerized simulators etc.
-* **Hardware interfaces** are the physical, spatial interfaces found on products in the real world from toasters, to car dashboards, to airplane cockpits. They are generally a mixture of knobs, buttons, sliders, switches, and touchscreens.
-* **Attentive user interfaces** manage the user attention deciding when to interrupt the user, the kind of warnings, and the level of detail of the messages presented to the user.
-* **Batch interfaces** are non-interactive user interfaces, where the user specifies all the details of the batch job in advance to batch processing, and receives the output when all the processing is done. The computer does not prompt for further input after the processing has started.
-* **Conversational Interface Agents** attempt to personify the computer interface in the form of an animated person, robot, or other character (such as Microsoft's Clippy the paperclip), and present interactions in a conversational form.
-* **Crossing-based interfaces** are graphical user interfaces in which the primary task consists in crossing boundaries instead of pointing.
-* **Gesture interfaces** are graphical user interfaces which accept input in a form of hand gestures, or mouse gestures sketched with a computer mouse or a stylus.
-* **Intelligent user interfaces** are human-machine interfaces that aim to improve the efficiency, effectiveness, and naturalness of human-machine interaction by representing, reasoning, and acting on models of the user, domain, task, discourse, and media (e.g., graphics, natural language, gesture).
-* **Motion tracking interfaces** monitor the user's body motions and translate them into commands, currently being developed by Apple.
-* **Multi-screen interfaces**, employ multiple displays to provide a more flexible interaction. This is often employed in computer game interaction in both the commercial arcades and more recently the handheld markets.
-* **Non-command user interfaces**  which observe the user to infer his / her needs and intentions, without requiring that he / she formulate explicit commands.
-* **Object-oriented user interfaces (OOUI)**  are based on object-oriented programming metaphors, allowing users to manipulate simulated objects and their properties.
-* **Reflexive user interfaces** where the users control and redefine the entire system via the user interface alone, for instance to change its command verbs. Typically this is only possible with very rich graphic user interfaces.
-* **Search interface**  is how the search box of site is displayed, as well as the visual representation of the search results.
-* **Tangible User Interfaces**, which place a greater emphasis on touch and physical environment or its element.
-* **Task-Focused Interfaces** are user interfaces which address the information overload problem of the desktop metaphor by making tasks, not files, the primary unit of interaction.
-* **Text-based user interface**  are user interfaces which output a text. TUIs can either contain a command-line interface or a text-based WIMP environment.
-* **Voice user interfaces**,  which accept input and provide output by generating voice prompts. The user input is made by pressing keys or buttons, or responding verbally to the interface.
-* **Natural-language interfaces** is  Used for search engines and on webpages. User types in a question and waits for a response.
-* **Zero-Input interfaces**  get inputs from a set of sensors instead of querying the user with input dialogs.
-* **Zooming user interfaces** are graphical user interfaces in which information objects are represented at different levels of scale and detail, and where the user can change the scale of the viewed area in order to show more detail
+ **Command line interfaces**,where the user provides the input by typing a command string with the computer keyboard and the system provides output by printing text on the computer monitor. Used by programmers and system administrators, in engineering and scientific environments, and by technically advanced personal computer users.
 
+ **Batch interfaces** are non-interactive user interfaces, where the user specifies all the details of the batch job in advance to batch processing, and receives the output when all the processing is done. The computer does not prompt for further input after the processing has started.
 ## Graphical User Interface (GUI)
 In computing, a graphical user interface (GUI, sometimes pronounced "gooey" or "jee-you-eye") is a type of interface that allows users to interact with electronic devices through graphical icons and visual indicators such as secondary notation, as opposed to text-based interfaces, typed command labels or text navigation. GUIs were introduced in reaction to the perceived steep learning curve of command-line interfaces (CLIs), which require commands to be typed on the keyboard.
 The actions in a GUI are usually performed through direct manipulation of the graphical elements. In addition to computers, GUIs can be found in hand-held devices such as MP3 players, portable media players, gaming devices and smaller household, office and industry equipment. The term "GUI" tends not to be applied to other low-resolution types of interfaces with display resolutions, such as video games (where HUD is preferred), or not restricted to flat screens, like volumetric displays because the term is restricted to the scope of two-dimensional display screens able to describe generic information, in the tradition of the computer science research at the PARC (Palo Alto Research Center).
-
-### GUI History
-
-#### Precursors
-A precursor to GUIs was invented by researchers at the Stanford Research Institute, led by Douglas Engelbart. They developed the use of text-based hyperlinks manipulated with a mouse for the On-Line System (NLS). The concept of hyperlinks was further refined and extended to graphics by researchers at Xerox PARC‍ and specifically Alan Kay, who went beyond text-based hyperlinks and used a GUI as the primary interface for the Xerox Alto computer, released in 1973. Most modern general-purpose GUIs are derived from this system.
-
-Ivan Sutherland developed a pointer-based system called the Sketchpad in 1963. It used a light-pen to guide the creation and manipulation of objects in engineering drawings.
-
-#### PARC user interface
-
-The PARC user interface consisted of graphical elements such as windows, menus, radio buttons, and check boxes. The concept of icons was later introduced by David Smith, who had written a thesis on the subject under the guidance of Kay. The PARC user interface employs a pointing device in addition to a keyboard. These aspects can be emphasized by using the alternative acronym WIMP, which stands for windows, icons, menus and pointing device.
-
-#### Evolution
-
-Following PARC the first GUI-centric computer operating model was the Xerox 8010 Star Information System in 1981,followed by the Apple Lisa (which presented the concept of menu bar as well as window controls) in 1983, the Apple Macintosh 128K in 1984, and the Atari ST and Commodore Amiga in 1985.
-
-Visi On was released in 1983 for the IBM PC compatible computers, but didn't became popular due to its high hardware demands.[18] Nevertheless, it was a crucial influence on the contemporary development of Microsoft Windows.[19]
-
-Apple, IBM and Microsoft used many of Xerox's ideas to develop products, and IBM's Common User Access specifications formed the basis of the user interface found in Microsoft Windows, IBM OS/2 Presentation Manager, and the Unix Motif toolkit and window manager. These ideas evolved to create the interface found in current versions of Microsoft Windows, as well as in Mac OS X and various desktop environments for Unix-like operating systems, such as Linux. Thus most current GUIs have largely common idioms.
-
-#### Popularization
-
-GUIs were a hot topic in the early 1980s. The Apple Lisa was released in 1982 and various windowing systems existed for MS-DOS. Individual applications for a number of platforms presented their own take on the GUI.[20] Despite the GUIs advantages, many reviewers questioned the value of the entire concept,[21] citing hardware limitations as well as the difficulty in finding compatible software.
-
-In 1984, Apple released a television commercial which introduced the Apple Macintosh during the telecast of Super Bowl XVIII by CBS,[22] with allusions to George Orwell's noted novel, Nineteen Eighty-Four. The commercial was aimed at making people think about computers, identifying the user-friendly interface as a personal computer which departed from previous business-oriented systems,[23] and becoming a signature representation of Apple products.[24]
-
-Accompanied by an extensive marketing campaign,[25] Windows 95 was a major success in the marketplace at launch and shortly became the most popular desktop operating system.[citation needed]
-
-In 2007, with the iPhone and later in 2010 with the introduction of the iPad, Apple popularized the post-WIMP style of interaction for multi-touch screens, and those devices were considered to be milestones in the development of mobile devices.
-
-The GUIs familiar to most people as of the mid-2010s are Microsoft Windows, Mac OS X, and the X Window System interfaces for desktop and laptop computers, and Apple's iOS, Android, Symbian, BlackBerry OS, Windows Phone, Palm OS / Web OS, and Firefox OS for handheld ("smartphone") devices.
-
-### GUI Components
+## GUI Components
+> * Predefined
+> * Choice
+> * Control
+> * Cue
 
 A GUI uses a combination of technologies and devices to provide a platform that the user can interact with, for the tasks of gathering and producing information.
 
@@ -401,11 +350,6 @@ AOI/AOUI = Application Oriented Interface/Application Oriented User Interface (t
 |Any changes to window properties need to be saved explicitly.|Any changes to object properties are saved automatically. All changes are immediately reflected in all object views|
 
 
-### GUI Components 
-* Predefined
-* Choice
-* Control
-* Cue
 
 ### GUI Design Tools
 
@@ -565,6 +509,11 @@ A selection is a list of items on which user operations will take place. The use
 ### Adjustment Handle
 A handle is an indicator of a starting point for a drag and drop operation. Usually the pointer shape changes when placed on the handle, showing an icon that represents the supported drag operation.
 
+# Software Evaluation
+
+![table-1](Screenshot+2015-04-07+03.33.44.png)
+![table-2](Screenshot+2015-04-07+03.34.36.png)
+
 
 # 4. Design Principles 
 
@@ -574,6 +523,6 @@ A handle is an indicator of a starting point for a drag and drop operation. Usua
 
 # 7. OS Look & Feel, Help Files
 
-# 8. Formal Evaluiation of UIs
+# 8. Formal Evaluation of UIs
 
 # 9. Design for Hardware
