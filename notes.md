@@ -13,35 +13,6 @@
 > Design can empower or sidempower us in the most other aspects of our lives. When deployed wisely, it can bring us pleasure, chouce, strength, beauty, comfort, decency, sensitivity, integrity, prosperity, diversity and so much more. But if its power is abused, the outcome can be wastefuk, confusing, humiliating, sacary, enraging even dangerous
 > - Alice Rawsthorn
 
-## Principles of Design
-
-#### Balance
-is the distribution of the visual weight of objects, colors, texture, and space. If the design was a scale, these elements should be balanced to make a design feel stable. In symmetrical balance, the elements used on one side of the design are similar to those on the other side; in asymmetrical balance, the sides are different but still look balanced. In radial balance, the elements are arranged around a central point and may be similar.
-
-#### Emphasis
-is the part of the design that catches the viewer’s attention. Usually the artist will make one area stand out by contrasting it with other areas. The area could be different in size, color, texture, shape, etc.
-
-#### Movement
-is the path the viewer’s eye takes through the work of art, often to focal areas. Such movement can be directed along lines, edges, shape, and color within the work of art.
-
-#### Pattern
-is the repeating of an object or symbol all over the work of art.
-
-#### Repetition
-works with pattern to make the work of art seem active. The repetition
-of elements of design creates unity within the work of art.
-
-#### Proportion
-is the feeling of unity created when all parts (sizes, amounts, or number) relate well with each other. When drawing the human figure, proportion can refer to the size of the head compared to the rest of the body.
-
-#### Rhythm
-is created when one or more elements of design are used repeatedly to create a feeling of organized movement. Rhythm creates a mood like music or dancing. To keep rhythm exciting and active, variety is essential.
-
-#### Variety
-is the use of several elements of design to hold the viewer’s attention and to guide the viewer’s eye through and around the work of art.
-
-#### Unity
-is the feeling of harmony between all parts of the work of art, which creates a sense of completeness.
 
 ### Form vs Function
 Form follows function is a principle associated with modernist architecture and industrial design in the 20th century. The principle is that the shape of a building or object should be primarily based upon its intended function or purpose.
@@ -132,7 +103,7 @@ A scenario created in the UCD process is a fictional story about the "daily life
 Scenarios create a social context in which the personas exist, and also create an actual physical world, instead of imagining a character with internal characteristics from gathered data and nothing else; there is more action involved in the persona's existence. A scenario is also more easily understood by people, since it is in the form of a story, and is easier to follow. Yet, like the personas, these scenarios are assumptions made by the researcher and designer, and is also created from a set of organized data. Some even say such scenarios are unrealistic to real life occurrences. Also, it is difficult to explain and inform low level tasks that occur, like the thought process of the persona before acting.
 
 #### Use Case
-In short, a use case describes the interaction between an individual and the rest of the world. Each use case describes an event that may occur for a short period of time in real life, but may consist of intricate details and interactions between the actor and the world.It is represented as a series of simple steps for the character to achieve his or her goal, in the form of a cause-and effect scheme. Use cases are normally written in the form of a chart with two columns: first column labelled actor, second column labelled world, and the actions performed by each side written in order in the respective columns. The following is an example of a use case for performing a song on a guitar in front of an audience.
+In short, a use case describes the interaction between an individual and the rest of the world. Each use case describes an event that may occur for a short period of time in real life, but may consist of intricate details and interactions between the actor and the world. It is represented as a series of simple steps for the character to achieve his or her goal, in the form of a cause-and effect scheme. Use cases are normally written in the form of a chart with two columns: first column labelled actor, second column labelled world, and the actions performed by each side written in order in the respective columns. The following is an example of a use case for performing a song on a guitar in front of an audience.
 
 |Actor|World|
 |---|----|
@@ -171,7 +142,7 @@ Other books in a similar vein include "Designing Pleasurable Products" by Patric
 ||provides feedback|
 |completes performance||
 
-Use cases are useful because they help identify useful levels of design work. They allow the designers to see the actual low level processes that are involved for a certain problem, which makes the problem easier to handle, since certain minor steps and details the user makes are exposed. The designers' job should take into consideration of these small problems in order to arrive at a final solution that works. Another way to say this is that use cases breaks a complicated task into smaller bits, where these bits are useful units. Each bit completes a small task, which then builds up to the final bigger task. Like writing code on a computer, it is easier to write the basic smaller parts and make them work first, and then put them together to finish the larger more complicated code, instead to tackling the entire code from the very beginning.
+> Use cases are useful because they help identify useful levels of design work. They allow the designers to see the actual low level processes that are involved for a certain problem, which makes the problem easier to handle, since certain minor steps and details the user makes are exposed. The designers' job should take into consideration of these small problems in order to arrive at a final solution that works. Another way to say this is that use cases breaks a complicated task into smaller bits, where these bits are useful units. Each bit completes a small task, which then builds up to the final bigger task. Like writing code on a computer, it is easier to write the basic smaller parts and make them work first, and then put them together to finish the larger more complicated code, instead to tackling the entire code from the very beginning.
 
 The first solution is less risky because if something goes wrong with the code, it is easier to look for the problem in the smaller bits, since the segment with the problem will be the one that does not work, while in the latter solution, the programmer may have to look through the entire code to search for a single error, which proves time consuming. The same reasoning goes for writing use cases in UCD. Lastly, use cases convey useful and important tasks where the designer can see which one are of higher importance than others. Some drawbacks of writing use cases include the fact that each action, by the actor or the world, consist of little detail, and is simply a small action. This may possibly lead to further imagination and different interpretation of action from different designers.
 
@@ -229,8 +200,17 @@ We should also distinguish UX and usability: According to the definition of usab
 
 
 ### Survivor Bias
+Survivorship bias, or survival bias, is the logical error of concentrating on the people or things that "survived" some process and inadvertently overlooking those that did not because of their lack of visibility. This can lead to false conclusions in several different ways. The survivors may be actual people, as in a medical study, or could be companies or research subjects or applicants for a job, or anything that must make it past some selection process to be considered further.
+
+Survivorship bias can lead to overly optimistic beliefs because failures are ignored, such as when companies that no longer exist are excluded from analyses of financial performance. It can also lead to the false belief that the successes in a group have some special property, rather than just coincidence. For example, if three of the five students with the best college grades went to the same high school, that can lead one to believe that the high school must offer an excellent education. This could be true, but the question cannot be answered without looking at the grades of all the other students from that high school, not just the ones who "survived" the top-five selection process.
+
+
 
 ### Confirmation Bias
+In psychology and cognitive science, confirmation bias (or confirmatory bias) is a tendency to search for or interpret information in a way that confirms one's preconceptions, leading to statistical errors.
+Confirmation bias is a type of cognitive bias and represents an error of inductive inference toward confirmation of the hypothesis under study.
+Confirmation bias is a phenomenon wherein decision makers have been shown to actively seek out and assign more weight to evidence that confirms their hypothesis, and ignore or underweigh evidence that could disconfirm their hypothesis.
+As such, it can be thought of as a form of selection bias in collecting evidence.
 
 # 2. Screen Design & UI History
 
@@ -515,8 +495,113 @@ A handle is an indicator of a starting point for a drag and drop operation. Usua
 ![table-2](Screenshot+2015-04-07+03.34.36.png)
 
 
+# Usability Heuristics
+
+**Visibility of system status**
+The system should always keep users informed about what is going on, through appropriate feedback within reasonable time.
+ 
+**Match between system and the real world**
+The system should speak the users' language, with words, phrases and concepts familiar to the user, rather than system-oriented terms. Follow real-world conventions, making information appear in a natural and logical order.
+ 
+**User control and freedom**
+Users often choose system functions by mistake and will need a clearly marked "emergency exit" to leave the unwanted state without having to go through an extended dialogue. Support undo and redo.
+ 
+**Consistency and standards**
+Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform conventions.
+ 
+**Error prevention**
+Even better than good error messages is a careful design which prevents a problem from occurring in the first place. Either eliminate error-prone conditions or check for them and present users with a confirmation option before they commit to the action.
+ 
+Recognition rather than recall
+Minimize the user's memory load by making objects, actions, and options visible. The user should not have to remember information from one part of the dialogue to another. Instructions for use of the system should be visible or easily retrievable whenever appropriate.
+(Read full article on recognition vs. recall in UX.)
+ 
+**Flexibility and efficiency of use**
+Accelerators -- unseen by the novice user -- may often speed up the interaction for the expert user such that the system can cater to both inexperienced and experienced users. Allow users to tailor frequent actions.
+ 
+**Aesthetic and minimalist design**
+Dialogues should not contain information which is irrelevant or rarely needed. Every extra unit of information in a dialogue competes with the relevant units of information and diminishes their relative visibility.
+ 
+**Help users recognize, diagnose, and recover from errors**
+Error messages should be expressed in plain language (no codes), precisely indicate the problem, and constructively suggest a solution.
+ 
+**Help and documentation**
+Even though it is better if the system can be used without documentation, it may be necessary to provide help and documentation. Any such information should be easy to search, focused on the user's task, list concrete steps to be carried out, and not be too large.
+
 # 4. Design Principles 
 
+#### Balance
+is the distribution of the visual weight of objects, colors, texture, and space. If the design was a scale, these elements should be balanced to make a design feel stable. In symmetrical balance, the elements used on one side of the design are similar to those on the other side; in asymmetrical balance, the sides are different but still look balanced. In radial balance, the elements are arranged around a central point and may be similar.
+
+#### Emphasis
+is the part of the design that catches the viewer’s attention. Usually the artist will make one area stand out by contrasting it with other areas. The area could be different in size, color, texture, shape, etc.
+
+#### Movement
+is the path the viewer’s eye takes through the work of art, often to focal areas. Such movement can be directed along lines, edges, shape, and color within the work of art.
+
+#### Pattern
+is the repeating of an object or symbol all over the work of art.
+
+#### Repetition
+works with pattern to make the work of art seem active. The repetition
+of elements of design creates unity within the work of art.
+
+#### Proportion
+is the feeling of unity created when all parts (sizes, amounts, or number) relate well with each other. When drawing the human figure, proportion can refer to the size of the head compared to the rest of the body.
+
+#### Rhythm
+is created when one or more elements of design are used repeatedly to create a feeling of organized movement. Rhythm creates a mood like music or dancing. To keep rhythm exciting and active, variety is essential.
+
+#### Variety
+is the use of several elements of design to hold the viewer’s attention and to guide the viewer’s eye through and around the work of art.
+
+#### Unity
+is the feeling of harmony between all parts of the work of art, which creates a sense of completeness.
+
+
+# Accessibility
+
+In human–computer interaction, computer accessibility (also known as Accessible computing) refers to the accessibility of a computer system to all people, regardless of disability or severity of impairment. It is largely a software concern;[dubious – discuss] when software, hardware, or a combination of hardware and software, is used to enable use of a computer by a person with a disability or impairment, this is known as Assistive Technology.
+
+There are numerous types of impairment that affect computer use. These include:
+
+* Cognitive impairments and learning disabilities, such as dyslexia, ADHD or autism.
+* Visual impairment such as low-vision, complete or partial blindness, and color blindness.
+* Hearing-related disabilities including deafness, being hard of hearing, or hyperacusis.
+* Motor or dexterity impairment such as paralysis, cerebral palsy, or carpal tunnel syndrome and repetitive strain injury.
+
+    These impairments can present themselves with variable severity; they may be acquired from disease, trauma or may be congenital or degenerative in nature.
+
+## Cognitive impairments and illiteracy
+
+The biggest challenge in computer accessibility is to make resources accessible to people with cognitive disabilities - particularly those with poor communication skills - and those without reading skills.
+
+Their further development relies on public domain icons being available. Many people with a learning disability learn and rely on proprietary symbols. They thus become tied to particular products. The copyright owners are generally unwilling to release them on the web.
+
+An alternative approach where users want to access public computer based terminals in libraries, ATM, Information kiosks etcetera is for the user to present a token to the computer terminal, such as a smart card, that has configuration information to adjust the computer speed, text size, etcetera to their particular needs. The concept is encompassed by the CEN EN 1332-4 Identification Card Systems - Man-Machine Interface.[1][2] This development of this standard has been supported in Europe by SNAPI and has been successfully incorporated into the LASSeO specifications.[3]
+
+## Visual impairment
+
+Since computer interfaces often solicit visual input and provide visual feedback, another significant challenge in computer accessibility involves making software usable by people with visual impairment. For individuals with mild to medium vision impairment, it is helpful to use large fonts, high DPI displays, high-contrast themes and icons supplemented with auditory feedback and screen magnifying software.
+
+In the case of severe vision impairment such as blindness, screen reader software that provides feedback via text to speech or a refreshable braille display is a necessary accommodation for interaction with a computer.
+
+About 8% of people, mostly males, suffer from some form of colour-blindness. The main colour combinations that might be confused by people with visual deficiency include red/green and blue/green. However, in a well-designed user interface, color should not be the only way of distinguishing between different pieces of information.
+
+## Motor and dexterity impairments
+
+Some people may not be able to use a conventional input device, such as the mouse or the keyboard. Therefore it is important for software functions to be accessible using both devices; ideally, software uses a generic input API that permits the use even of highly specialized devices unheard of at the time of software development. Keyboard shortcuts and mouse gestures are ways to achieve this. More specialized solutions like on-screen software keyboards and alternate input devices like switches, joysticks and trackballs are also available. Speech recognition technology is also a compelling and suitable alternative to conventional keyboard and mouse input as it simply requires a commonly available audio headset.
+
+The astrophysicist Stephen Hawking is a famous example of a person suffering from motor disability. He uses a switch, combined with special software, that allows him to control his wheelchair-mounted computer using his remaining small movement ability. This performs as a normal computer, allowing him to research and produce his written work, and as an Augmentative and Alternative Communication and environmental control device.
+
+A small amount of modern research indicates that the mere act of utilizing a standard computer mouse device improves fine-motor skills.[4]
+
+## Hearing impairment
+While sound user interfaces have a secondary role in common desktop computing, usually limited to system sounds as feedback, software producers take into account people who can't hear, either for personal disability, noisy environments, silence requirements or lack of sound hardware. Such system sounds like beeps can be substituted or supplemented with visual notifications and captioned text (akin to closed captions).
+
+
+
+    
 # 5. UI Components
 
 # 6. Use Cases and Users
