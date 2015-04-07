@@ -338,7 +338,7 @@ Ivan Sutherland developed a pointer-based system called the Sketchpad in 1963. I
 
 #### PARC user interface
 
-The PARC user interface consisted of graphical elements such as windows, menus, radio buttons, and check boxes. The concept of icons was later introduced by David Smith, who had written a thesis on the subject under the guidance of Kay.[13][14][15] The PARC user interface employs a pointing device in addition to a keyboard. These aspects can be emphasized by using the alternative acronym WIMP, which stands for windows, icons, menus and pointing device.
+The PARC user interface consisted of graphical elements such as windows, menus, radio buttons, and check boxes. The concept of icons was later introduced by David Smith, who had written a thesis on the subject under the guidance of Kay. The PARC user interface employs a pointing device in addition to a keyboard. These aspects can be emphasized by using the alternative acronym WIMP, which stands for windows, icons, menus and pointing device.
 
 #### Evolution
 
@@ -401,6 +401,112 @@ AOI/AOUI = Application Oriented Interface/Application Oriented User Interface (t
 |Any changes to window properties need to be saved explicitly.|Any changes to object properties are saved automatically. All changes are immediately reflected in all object views|
 
 
+### GUI Components 
+* Predefined
+* Choice
+* Control
+* Cue
+
+### GUI Design Tools
+
+#### Card Sorting
+Card sorting is a simple technique in user experience design where a group of subject experts or "users", however inexperienced with design, are guided to generate a category tree or folksonomy. It is a useful approach for designing information architecture, workflows, menu structure, or web site navigation paths.
+
+##### Basic method
+To perform a card sort:
+
+1. A person representative of the audience is given a set of inde:x cards with terms already written on them.
+2. This person puts the terms into logical groupings, and finds a category name for each grouping.
+3. This process is repeated across a population of test subjects.
+4. The results are later analyzed to reveal patterns.
+
+##### Variants
+**Open Card Sorting**
+In an open card sort, participants create their own names for the categories.
+
+This helps reveal not only how they mentally classify the cards, but also what terms they use for the categories.
+
+Open sorting is generative; it is typically used to discover patterns in how participants classify, which in turn helps generate ideas for organizing information.
+
+**Close Card sorting**
+In a closed card sort, participants are provided with a predetermined set of category names. They then assign the index cards to these fixed categories.
+
+This helps reveal the degree to which the participants agree on which cards belong under each category.
+
+Closed sorting is evaluative; it is typically used to judge whether a given set of category names provides an effective way to organize a given collection of content.
+**Reverse Card Sorting**
+In a reverse card sort or card-based classification test, an existing structure of categories and sub-categories is tested. Users are given tasks and are asked to complete them navigating a collection of cards. Each card contains the names of subcategories related to a category, and the user should find the card most relevant to the given task starting from the main card with the top-level categories. This ensures that the structure is evaluated in isolation, nullifying the effects of navigational aids, visual design, and other factors.
+
+Reverse card sorting is evaluative; it is used to judge whether a predetermined hierarchy provides a good way to find information.
+
+##### Analysis
+Various methods can be used to analyze the data. The purpose of the analysis is to extract patterns from the population of test subjects, so that a common set of categories and relationships emerges. This common set is then incorporated into the design of the environment, either for navigation or for other purposes. Card sorting is also evaluated through dendrograms. There is some indication that different evaluation methods for card sorting provide different results.
+
+Card sorting is an established technique with an emerging literature.
+
+
+
+#### Paper Prototyping
+In human–computer interaction, paper prototyping is a widely used method in the user-centered design process, a process that helps developers to create software that meets the user's expectations and needs—in this case, especially for designing and testing user interfaces. It is throwaway prototyping and involves creating rough, even hand-sketched, drawings of an interface to use as prototypes, or models, of a design. While paper prototyping seems simple, this method of usability testing can provide a great deal of useful feedback which will result in the design of better products. This is supported by many usability professionals.[1]
+##### History
+Paper prototyping started in the mid 1980s and then became popular in the mid 1990s when companies such as IBM, Honeywell, Microsoft, and others started using the technique in developing their products. Today, paper prototyping is used widely in user centered design by usability professionals. More recently, digital paper prototyping has been advocated by companies like Pidoco due to advantages in terms of collaboration, flexibility and cost.
+
+##### Benefits
+Paper prototyping saves time and money since it enables developers to test product interfaces (from software and websites to cell phones and microwave ovens) before they write code or begin development. This also allows for easy and inexpensive modification to existing designs which makes this method useful in the early phases of design. Using paper prototyping allows the entire creative team to be involved in the process, which eliminates the chance of someone with key information not being involved in the design process. Another benefit of paper prototyping is that users feel more comfortable being critical of the mock up because it doesn't have a polished look.[2]
+
+There are different methods of paper prototyping, each of them showing several benefits regarding the communication within the development team and the quality of the product to be developed: In the development team paper prototypes can serve as a visual specification of the graphical user interface, and by this means assure the quality of a software. Prototyping forces a more complete design of the user interface to be captured. In team meetings they provide a communication base between the team members. Testing prototypes at an early stage in development helps to identify software usability problems even before any code is written. The costs and annoyances of later changes are reduced, the support burden is lowered, and the overall quality of the software or website is increased.[3]
+
+##### Usage
+Paper prototypes should be considered when the following is true:
+
+* When the tools the designer wants to use in creating a prototype are not available.
+* When the designer wants to make a sincere effort to allow all members of a team, including those with limited software skills, to take part in the design process.
+* When tests of a design lead to a great deal of drawings.
+
+The most important areas of application of paper prototypes are the following:
+
+**Communication in the Team**
+One of the major applications of paper prototyping is brainstorming in the development team, to collect and visualize ideas on how an interface might look. The interface is built up step by step, meeting the expectations of all team members. To probe the applicability of the software design, typical use cases are played through and possible pitfalls are identified. The prototype can then be used as a visual specification of the software.[citation needed]
+
+**Usability Testing**
+Paper prototypes can be used for usability testing with real users. In such a test, the user performs realistic tasks by interacting with the paper prototype. The prototype is manipulated by another person reflecting the software's reactions to the user input actions. Though seemingly unsophisticated, this method is very successful at discovering usability issues early in the design process.
+Three techniques of paper prototyping used for usability testing are comps (short for compositions), wireframes, and storyboards. Comps are visual representations, commonly of websites, that demonstrate various aspects of the interface including fonts, colors, and logos. A wireframe is used to demonstrate the page layout of the interface. Lastly, the storyboards are a series or images that are used to demonstrate how an interface works.[1] These three techniques are useful and can be turned into paper prototypes.
+
+**Design testing**
+Especially in web design, paper prototypes can be used to probe the illegibility of a design: A high-fidelity design mockup of a page is printed and presented to a user. Among other relevant issues the user is asked to identify the main navigation, clickable elements, etc. Paper prototyping is also the recommended design testing technique in the contextual design process.
+
+**Information architecture**
+By applying general and wide paper prototypes, the information architecture of a software or web site can be tested. Users are asked where they would search for certain functionality or settings in software, or topics in a web site. According to the percentage of correct answers, the information architecture can be approved or further refined.
+
+**Rapid prototyping**
+Paper prototyping is often used as the first step of rapid prototyping. Rapid prototyping involves a group of designers who each create a paper prototype and test it on a single user. After this is done, the designers share their feedback and ideas, at which point, each of them creates a second prototype—this time using presentation software. Functionality is similarly unimportant, but in this case, the aesthetics are closer to the final product. Again each designer's computer prototype is tested on a single user, and the designers meet to share feedback. At this point, actual software prototypes can be created. Usually after these steps have been taken, the actual software is user-friendly the first time around, which saves programming time.
+#### Flow Charting
+
+A flowchart is a type of diagram that represents an algorithm, workflow or process, showing the steps as boxes of various kinds, and their order by connecting them with arrows. This diagrammatic representation illustrates a solution model to a given problem. Flowcharts are used in analyzing, designing, documenting or managing a process or program in various fields.[1]
+
+##### Overview
+Flowcharts are used in designing and documenting complex processes or programs. Like other types of diagrams, they help visualize what is going on and thereby help the people to understand a process, and perhaps also find flaws, bottlenecks, and other less-obvious features within it. There are many different types of flowcharts, and each type has its own repertoire of boxes and notational conventions. The two most common types of boxes in a flowchart are:
+
+* a processing step, usually called *activity*, and denoted as a rectangular box
+* a decision, usually denoted as a diamon.
+
+
+
+#### Wire Framing
+A website wireframe, also known as a page schematic or screen blueprint, is a visual guide that represents the skeletal framework of a website.
+Wireframes are created for the purpose of arranging elements to best accomplish a particular purpose. The purpose is usually being informed by a business objective and a creative idea. The wireframe depicts the page layout or arrangement of the website’s content, including interface elements and navigational systems, and how they work together.
+The wireframe usually lacks typographic style, color, or graphics, since the main focus lies in functionality, behavior, and priority of content.
+In other words, it focuses on what a screen does, not what it looks like. Wireframes can be pencil drawings or sketches on a whiteboard, or they can be produced by means of a broad array of free or commercial software applications. Wireframes are generally created by business analysts, user experience designers, developers, visual designers and other roles with expertise in interaction design, information architecture and user research.
+
+#### Wizard of Oz'ing
+In the field of human-computer interaction, a Wizard of Oz experiment is a research experiment in which subjects interact with a computer system that subjects believe to be autonomous, but which is actually being operated or partially operated by an unseen human being.
+
+
+#### Story Boarding
+
+
+
+
 
 # 3. Characteristics of WIMP (Window, Icon, Menu, Pointer) Interfaces 
 ## Structural elements
@@ -458,7 +564,6 @@ A selection is a list of items on which user operations will take place. The use
 
 ### Adjustment Handle
 A handle is an indicator of a starting point for a drag and drop operation. Usually the pointer shape changes when placed on the handle, showing an icon that represents the supported drag operation.
-
 
 
 # 4. Design Principles 
