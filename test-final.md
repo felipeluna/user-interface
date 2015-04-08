@@ -96,3 +96,10 @@ v. What are three things that error handling should do?
     * Save the Correct answers 
     * Make sure to the user whats going on 
 
+# 4. Other Stuff
+
+ii. Name and provide the dates for the three periods of UI?
+    * Batch 1945 - 1968
+    * Command Line 1969 - present
+    * GUI 1981 - present
+
